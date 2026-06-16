@@ -67,6 +67,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -150,7 +151,6 @@
               ]
             },
             "id": "3f011c7d-61e7-4eb5-a29d-01a4b16a66a0",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Usuario Web",
@@ -184,6 +184,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -267,7 +268,6 @@
               ]
             },
             "id": "5c8f00b4-d33e-4f50-802e-34bf03840184",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Aplicación Flask",
@@ -307,6 +307,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -390,7 +391,6 @@
               ]
             },
             "id": "92644ef5-7895-4aca-8147-3403e4bdd105",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "Base de Datos SQLite",
@@ -428,6 +428,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -511,7 +512,6 @@
               ]
             },
             "id": "a7c24e35-2a55-4544-891e-aae18c4dce34",
-            "zIndex": 4,
             "data": {
               "type": "tm.Process",
               "name": "Sistema de archivos",
